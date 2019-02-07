@@ -4,9 +4,10 @@ Code to train models from "Adversarial Example Generation with Syntactically Con
 
 The code is written in python and requires Pytorch 3.1.
 
-To get started, download trained models (scpn.pt and parse_generator.pt) from https://drive.google.com/file/d/1AuH1aHrE9maYttuSJz_9eltYOAad8Mfj/view?usp=sharing and place them in the models directory.
+Generic Training data is available to be downloaded from https://drive.google.com/file/d/1x1Xz3KQP_Ncu3DVPhOCsAwwOlFgcre5H/view?usp=sharing and when used, move it to the data folder for training. This is mostly for reference, we will be using our own training data down the line.
 
-Generic Training data is available to be downloaded from https://drive.google.com/file/d/1x1Xz3KQP_Ncu3DVPhOCsAwwOlFgcre5H/view?usp=sharing and move it to the data folder. Check train_scpn.py for training command line options. This is mostly for reference, we will be using our own training data down the line.
+
+Check train_scpn.py for training command line options. 
 
 To train a model from scratch with default settings run train.sh.
 
